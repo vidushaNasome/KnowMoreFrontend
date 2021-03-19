@@ -1,13 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+
 import Page2 from "./Page2";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+//import PrimarySearchAppBar from "./navigation/PrimarySearchAppBar";
+import Footer from "./navigation/Footer";
+import React from "react";
+import FirstPage from "./FirstPage";
+import NotloggenInPage from "./NotloggenInPage";
+
 
 function App() {
   return (
     <div className="App">
-     hello world
-     HELLO WORLD 2
-        <Page2/>
+        <FirstPage/>
+
+        <NotloggenInPage/>
+
+
     </div>
   );
 }
