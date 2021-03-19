@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Page from "./Example/Page";
+import Page1 from "./Example/Page1";
 
 import Page2 from "./Page2";
 
@@ -15,10 +17,7 @@ function App() {
   return (
     <div className="App">
         <FirstPage/>
-
         <NotloggenInPage/>
-
-
     </div>
   );
 }
