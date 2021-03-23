@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 
-class Register extends Component {
+class Cluster extends Component {
     render() {
         return (
             <div><br/><br/><br/><br/>
-            Register
-                
+            Cluster
+
             </div>
         );
     }
 }
 
-export default Register;
+export default Cluster;

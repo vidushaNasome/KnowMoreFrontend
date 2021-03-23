@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 
-class Register extends Component {
+class Repositary extends Component {
     render() {
         return (
             <div><br/><br/><br/><br/>
-            Register
-                
+                Repositary
+
             </div>
         );
     }
 }
 
-export default Register;
+export default Repositary;

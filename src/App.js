@@ -4,18 +4,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import PrimarySearchAppBar from "./navigation/PrimarySearchAppBar";
 import Footer from "./navigation/Footer";
 import React from "react";
-import FirstPage from "./FirstPage";
-import NotloggenInPage from "./NotloggenInPage";
+import FirstPage from "./components/FirstPage";
+import NotloggenInPage from "./RegisterAndLogin/NotloggenInPage";
+import LogginCheckPage from "./LogginCheckPage";
 
 function App() {
   return (
     <div className="App">
-
-
-        <FirstPage/>
-
-        <NotloggenInPage/>
-
+        <LogginCheckPage/>
+        <br/><br/>
+        <Footer/>
     </div>
   );
 }
