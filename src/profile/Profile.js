@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 
-class Register extends Component {
+class Profile extends Component {
     render() {
         return (
             <div><br/><br/><br/><br/>
-            Register
-                
+            Profile
+
             </div>
         );
     }
 }
 
-export default Register;
+export default Profile;

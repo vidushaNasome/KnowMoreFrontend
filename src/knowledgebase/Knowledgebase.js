@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 
-class Register extends Component {
+class Knowledgebase extends Component {
     render() {
         return (
             <div><br/><br/><br/><br/>
-            Register
-                
+            Knowledge Base
+
             </div>
         );
     }
 }
 
-export default Register;
+export default Knowledgebase;
