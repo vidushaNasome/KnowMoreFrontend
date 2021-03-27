@@ -16,8 +16,9 @@ class FirstPage extends Component {
     render() {
         return (
             <div>
+
                 <Router>
-                    <NavigationBar />
+                    <NavigationBar/>
                     <Switch>
                         <Route  path="/newsfeed" exact  component={MainPage}/>
                         <Route  path="/classmates" exact  component={Classmates}/>

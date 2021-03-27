@@ -10,7 +10,7 @@ class LogginCheckPage extends Component {
                     <div>
                         <FirstPage/>
                     </div>
-                    :<div id="logged2">
+                    :<div>
                         <NotloggenInPage/>
                     </div>}
 

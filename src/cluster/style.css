@@ -1,0 +1,25 @@
+.rowC{
+    display:flex;
+    flex-direction:row;
+
+
+}
+.VideoCluster{
+    background-color: #fdedda;
+    margin: 2% 1%;
+    min-width: 45%;
+    align: center;
+    min-height: 60%;
+
+}
+.other{
+    background-color: #ffdad0;
+    margin: 2% 1%;
+    min-width: 17%;
+}
+.Comments{
+    background-color: #fff5dd;
+    margin: 2% 1%;
+    min-width: 30%;
+
+}
