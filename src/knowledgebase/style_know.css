@@ -1,0 +1,40 @@
+.rowC{
+    display:flex;
+    flex-direction:row;
+
+
+}
+.knowb{
+    background-color: #fdedda;
+    margin: 2% 1%;
+    min-width: 50%;
+    align: center;
+    min-height: 60%;
+
+}
+.other{
+    background-color: #ffdad0;
+    margin: 2% 1%;
+    min-width: 15%;
+}
+.search{
+    background-color: #fff5dd;
+    margin: 2% 1%;
+    min-width: 28%;
+
+}
+.div3{
+    display:flex;
+    flex-direction:row;
+
+}
+.div1{
+    display:flex;
+    flex-direction:row;
+
+}
+.div2{
+    display:flex;
+    flex-direction:row;
+
+}

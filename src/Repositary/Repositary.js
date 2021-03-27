@@ -4,7 +4,7 @@ class Repositary extends Component {
     render() {
         return (
             <div><br/><br/><br/><br/>
-                Repositary
+                <div align="center">Repositary</div>
 
             </div>
         );

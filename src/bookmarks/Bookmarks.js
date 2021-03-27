@@ -5,7 +5,7 @@ class Bookmarks extends Component {
         return (
             <div align='center'>
                 <br/><br/><br/><br/>
-            Bookmarks123
+                <div align="center">Bookmarks</div>
 
             </div>
         );
