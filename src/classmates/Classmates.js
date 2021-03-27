@@ -4,7 +4,7 @@ class Classmates extends Component {
     render() {
         return (
             <div> <br/><br/><br/><br/>
-                Classmates
+                <div align="center">Classmates</div>
             </div>
         );
     }

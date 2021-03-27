@@ -1,7 +1,7 @@
 import React from 'react';
 import {Nav,NavItem,Navbar,NavDropdown} from 'react-bootstrap';
 import {BrowserRouter as Router, Link} from "react-router-dom";
-import './style.css';
+import './style_nav.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "../Images/logo.png";
 function NavigationBarNotLoggedIn() {

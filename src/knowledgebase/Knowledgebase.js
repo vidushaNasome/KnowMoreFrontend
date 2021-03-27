@@ -1,4 +1,8 @@
 import React, {Component} from 'react';
+import Search from "./search/Search";
+import OtherKnow from "./otherknow/OtherKnow";
+import "./style_know.css";
+import KnowledgeBaseTmp from "./knowledge/KnowledgeBaseTmp";
 
 class Knowledgebase extends Component {
     render() {
@@ -6,6 +10,11 @@ class Knowledgebase extends Component {
             <div>
                 <br/><br/><br/><br/>
                 <h5 align="center">My Knowledge Base</h5>
+                <div className="rowC">
+                <KnowledgeBaseTmp/>
+                <Search/>
+                <OtherKnow/>
+                </div>
 
             </div>
         );

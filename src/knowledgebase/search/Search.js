@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
+import "../style_know.css"
 
-class MainPage extends Component {
+class Search extends Component {
     render() {
         return (
-            <div>
+            <div className="search">
+                Search
                 <br/><br/><br/><br/>
-                <div align="center">Newsfeed</div>
-                
             </div>
         );
     }
 }
 
-export default MainPage;
+export default Search;
