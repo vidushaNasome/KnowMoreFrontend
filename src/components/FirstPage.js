@@ -16,7 +16,6 @@ class FirstPage extends Component {
     render() {
         return (
             <div>
-
                 <Router>
                     <NavigationBar/>
                     <Switch>

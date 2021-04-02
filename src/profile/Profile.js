@@ -5,6 +5,18 @@ class Profile extends Component {
         return (
             <div><br/><br/><br/><br/>
                 <div align="center">Profile</div>
+                <br/><br/><br/><br/>
+                <br/><br/><br/><br/>
+                <br/><br/><br/><br/>
+                <br/><br/><br/><br/>
+                <br/><br/><br/><br/>
+
+                <br/><br/><br/><br/>
+                <br/><br/><br/><br/>
+                <br/><br/><br/><br/>
+                <br/><br/><br/><br/>
+                <br/><br/><br/><br/>
+
 
             </div>
         );

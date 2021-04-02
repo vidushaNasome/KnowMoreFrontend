@@ -8,9 +8,10 @@ class Cluster extends Component {
     render() {
         return (
             <div>
-                <br/><br/><br/><br/>
+                <br/>
                 <h5 align="center">My Cluster</h5>
                 <div className="rowC">
+
                     <VideoCluster/>
                     <Comments/>
                     <Other/>

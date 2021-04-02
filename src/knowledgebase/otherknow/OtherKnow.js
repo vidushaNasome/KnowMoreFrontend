@@ -7,6 +7,13 @@ class OtherKnow extends Component {
             <div className="other">
                 Other - Knowledge Base
                 <br/><br/><br/><br/>
+                <br/><br/><br/><br/>
+                <br/><br/><br/><br/>
+                <br/><br/><br/><br/>
+                <br/><br/><br/><br/>
+                <br/><br/><br/><br/>
+                <br/><br/><br/><br/><br/><br/><br/><br/>
+
 
             </div>
         );

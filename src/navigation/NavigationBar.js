@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 import './style_nav.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import userimg from "../Images/user.png"
-import logo from "../Images/logo.png";
+import logo from "../Images/logo.png"
 
 import classmates from "../Images/Icons_navigation/classmates.PNG";
 import cluster from "../Images/Icons_navigation/cluster.PNG";
@@ -29,7 +29,10 @@ function NavigationBar() {
                 <Nav className="fixed-top" id="navd">
                     <div className="div1">
                         <div>
-                        <img src={logo} className="mr-3" alt=""/>
+                        <img src={logo} alt=""/>
+                        </div>
+                        <div id="logoname">
+                            <h5>&nbsp;&nbsp; KnowMore</h5>
                         </div>
                     </div>
 
@@ -37,7 +40,7 @@ function NavigationBar() {
                         <div>
                             <Tooltip content="Newsfeed">
                                 <Link to="/newsfeed" id="nn" style={{  textDecoration: 'none' }}>
-                                    <img src={home} className="mr-3" alt=""/>
+                                    <img src={home} className="mr-2" alt=""/>
                                 </Link>
                             </Tooltip>
                         </div>
@@ -103,7 +106,7 @@ function NavigationBar() {
                     </div>
 
                 </Nav>
-
+                <br/>
 
 
 
