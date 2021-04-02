@@ -10,16 +10,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./navigation/Footer";
 import React from "react";
 import LogginCheckPage from "./LogginCheckPage";
+import "./App.css";
+import "./background.css";
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="background">
         <LogginCheckPage/>
-
         <br/>
         <br/>
-        <Footer/>
+        {/*<Footer/>*/}
 
     </div>
   );

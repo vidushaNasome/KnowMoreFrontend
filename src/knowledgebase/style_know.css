@@ -1,26 +1,33 @@
 .rowC{
     display:flex;
     flex-direction:row;
-
-
 }
 .knowb{
-    background-color: #fdedda;
+    background-color: #ffffff;
     margin: 2% 1%;
     min-width: 50%;
     align: center;
     min-height: 60%;
+    border-radius: 25px;
+    overflow-y: scroll;
+    height: 700px;
 
 }
 .other{
-    background-color: #ffdad0;
+    background-color: #ffffff;
     margin: 2% 1%;
     min-width: 15%;
+    border-radius: 25px;
+    overflow-y: scroll;
+    height: 700px;
 }
 .search{
-    background-color: #fff5dd;
+    background-color: #ffffff;
     margin: 2% 1%;
     min-width: 28%;
+    border-radius: 25px;
+    overflow-y: scroll;
+    height: 700px;
 
 }
 .div3{
