@@ -15,7 +15,8 @@
     "react-scripts": "4.0.3",
     "reactjs-popup": "^2.0.4",
     "redux-react-session": "^2.6.1",
-    "web-vitals": "^1.1.1"
+    "web-vitals": "^1.1.1",
+    "mdbreact": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
