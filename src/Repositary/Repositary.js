@@ -19,7 +19,8 @@ class Repositary extends Component {
                             <button type="submit" className="btn btn-primary">Add Sessions</button>
                         </div>
                     </form>
-                    </div>
+                </div>
+
             </div>
         );
     }
