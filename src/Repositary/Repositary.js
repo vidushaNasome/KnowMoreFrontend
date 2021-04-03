@@ -5,6 +5,12 @@ class Repositary extends Component {
     render() {
         return (
             <div><br/><br/><br/><br/>
+                <div className="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" className="btn btn-secondary">Student</button>
+                    <button type="button" className="btn btn-secondary">Teacher</button>
+                    <button type="button" className="btn btn-secondary">School/Institute</button>
+                </div>
+                <br/>
                 <div id="student">
                     <h4 className="text-center text-secondary">Student</h4>
                     <form>
