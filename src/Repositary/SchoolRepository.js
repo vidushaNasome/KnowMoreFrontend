@@ -1,30 +1,30 @@
 import React, {Component} from 'react';
+import './student.css';
 
 class SchoolRepository extends Component {
     render() {
         return (
-            <div>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                    Launch demo modal
-                </button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                ...
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
+            <div><br/><br/><br/><br/>
+                <div className="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" className="btn btn-secondary">Student</button>
+                    <button type="button" className="btn btn-secondary">Teacher</button>
+                    <button type="button" className="btn btn-secondary">School/Institute</button>
+                </div>
+                <br/>
+                <div id="student">
+                    <h4 className="text-center text-secondary">School/Institute</h4>
+                    <form>
+                        <h6 className="text-left text-danger">Created Clusters</h6>
+                        <div className="form-group text-left">
+                            <label>Cluster Name</label>
+                            <button type="submit" className="btn btn-primary">Add Topics</button>
                         </div>
-                    </div>
+                        <div className="form-group text-left">
+                            <label>Topics</label>
+                            -><label>Topic1</label>
+                            <button type="submit" className="btn btn-primary">Add Sessions</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         );
