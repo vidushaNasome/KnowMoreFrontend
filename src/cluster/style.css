@@ -1,25 +1,33 @@
 .rowC{
     display:flex;
     flex-direction:row;
-
-
 }
 .VideoCluster{
-    background-color: #fdedda;
+    background-color: #ffffff;
     margin: 2% 1%;
     min-width: 45%;
     align: center;
-    min-height: 60%;
+    border-radius: 25px;
+    overflow-y: scroll;
+    height: 700px;
 
 }
 .other{
-    background-color: #ffdad0;
+    background-color: #ffffff;
     margin: 2% 1%;
     min-width: 17%;
-}
-.Comments{
-    background-color: #fff5dd;
-    margin: 2% 1%;
-    min-width: 30%;
+    border-radius: 25px;
+    position: sticky;
+    overflow-y: scroll;
+    height: 700px;
 
 }
+.Comments{
+    background-color: #ffffff;
+    margin: 2% 1%;
+    min-width: 30%;
+    border-radius: 25px;
+    overflow-y: scroll;
+    height: 700px;
+}
+

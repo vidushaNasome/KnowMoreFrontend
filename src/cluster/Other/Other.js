@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import "../style.css";
 
 class Other extends Component {
     render() {
@@ -6,7 +7,15 @@ class Other extends Component {
             <div className="other">
                 <br/><br/>
                 <div align="center"> Other</div>
+
                 <br/><br/><br/><br/>
+                <br/><br/><br/><br/>
+                <br/><br/><br/><br/>
+                <br/><br/><br/><br/><br/><br/><br/>
+                <br/><br/><br/><br/><br/><br/><br/>
+                <br/><br/><br/><br/><br/><br/>
+                <br/><br/><br/><br/>
+
 
             </div>
         );
