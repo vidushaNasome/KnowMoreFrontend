@@ -26,7 +26,7 @@ function NavigationBar() {
         <div >
             <br/>
 
-                <Nav className="fixed-top" id="navd">
+                <Nav className="fixed-top row" id="navd">
                     <div className="div1">
                         <div>
                         <img src={logo} alt=""/>
