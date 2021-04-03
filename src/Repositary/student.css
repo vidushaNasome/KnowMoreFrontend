@@ -1,0 +1,21 @@
+{/*Student*/}
+#student{
+    max-width: 450px;
+    background: #FAFAFA;
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 1px;
+    border: 1px solid;
+}
+
+form label, form input {
+    display: block;
+//margin-bottom: 10px;
+    width: 90%
+}
+
+form input {
+    padding: 10px;
+    border: solid 1px #BDC7D8;
+
+}
